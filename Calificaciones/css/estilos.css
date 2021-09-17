@@ -71,7 +71,6 @@ header{
     scrollbar-width: none;
 }
 
-
 .name__page{
     padding: 20px 30px;
     display: flex;
@@ -143,7 +142,6 @@ a.selected{
 .menu__side_move{
     width: 250px;
 }
-
 
 @media screen and (max-width: 760px){
     .body_move{
