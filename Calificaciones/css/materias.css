@@ -1,0 +1,13 @@
+.lista {
+    border-radius: 10px;
+}
+
+.elemento {
+    position: relative;
+    display: block;
+    padding: 5px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
