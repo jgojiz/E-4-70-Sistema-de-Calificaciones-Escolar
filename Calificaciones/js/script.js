@@ -13,7 +13,6 @@ function open_close_menu() {
 }
 
 //Si el ancho de la página es menor a 760px, ocultará el menú al recargar la página
-
 if (window.innerWidth < 760) {
 
     body.classList.add("body_move");
@@ -21,7 +20,6 @@ if (window.innerWidth < 760) {
 }
 
 //Haciendo el menú responsive(adaptable)
-
 window.addEventListener("resize", function () {
 
     if (window.innerWidth > 760) {

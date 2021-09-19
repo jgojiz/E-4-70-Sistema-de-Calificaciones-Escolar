@@ -1,4 +1,14 @@
  body {
     background-image: url("../imag/fondo.jpg");
   }
+
+  .controls {
+    width: 20%;
+    border: 1px solid #017bab;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    background: #ffffff;
+    font-size: 14px;
+    font-weight: lighter;
+  }
   
