@@ -1,0 +1,17 @@
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.fila td, .fila th{
+    border: 1px solid gray;
+}
+
+.boton {
+    margin-top: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
