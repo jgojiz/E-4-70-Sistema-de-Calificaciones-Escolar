@@ -1,5 +1,5 @@
  body {
-    background-image: url("../imag/fondo.jpg");
+    background-image: url("../imag/loginFont.jpg");
   }
 
   .controls {
@@ -10,5 +10,10 @@
     background: #ffffff;
     font-size: 14px;
     font-weight: lighter;
+    color: white;
+  }
+  h1 {
+    background-color: rgba(0, 0, 0, 0.007);
+    color: white;
   }
   
