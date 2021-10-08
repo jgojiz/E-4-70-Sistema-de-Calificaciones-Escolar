@@ -4,7 +4,7 @@
   "description": "Proyecto web ciclo 3 MisionTIC 2022. Sistema de calificaciones escolar. La configuración del proyecto se encuentra [aquí](https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar/wiki/Configuraci%C3%B3n-del-proyecto).",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon calificaciones/server.js"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
