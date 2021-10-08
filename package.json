@@ -1,0 +1,26 @@
+{
+  "name": "E-4-70-Sistema-de-Calificaciones-Escolar",
+  "version": "1.0.0",
+  "description": "Proyecto web ciclo 3 MisionTIC 2022. Sistema de calificaciones escolar. La configuración del proyecto se encuentra [aquí](https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar/wiki/Configuraci%C3%B3n-del-proyecto).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon calificaciones/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar/issues"
+  },
+  "homepage": "https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
