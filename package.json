@@ -1,5 +1,5 @@
 {
-  "name": "E-4-70-Sistema-de-Calificaciones-Escolar",
+  "name":"e-4-70-sistema-de-calificaciones-escolar",
   "version": "1.0.0",
   "description": "Proyecto web ciclo 3 MisionTIC 2022. Sistema de calificaciones escolar. La configuración del proyecto se encuentra [aquí](https://github.com/jgojiz/E-4-70-Sistema-de-Calificaciones-Escolar/wiki/Configuraci%C3%B3n-del-proyecto).",
   "main": "index.js",

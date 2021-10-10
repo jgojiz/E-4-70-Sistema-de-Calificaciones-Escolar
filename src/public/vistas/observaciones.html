@@ -43,15 +43,15 @@
         
                 <a href="consulta.html">
                     <div class="option">
-                        <i class="far fa-sticky-note" title="Consultar Estudiante"></i>
+                        <i class="far fa-sticky-note" title="Consulta de estudiantes"></i>
                         <h4>Consultar Estudiante</h4>
                     </div>
                 </a>
         
-                <a href="observaciones.html">
+                <a href="ingresar estudiantes.html">
                     <div class="option">
-                        <i class="far fa-id-badge" title="Observador del Alumno"></i>
-                        <h4>Observador del Alumno</h4>
+                        <i class="far fa-id-badge" title="ingresar estudiantes"></i>
+                        <h4>ingresar estudiantes</h4>
                     </div>
                 </a>
         
@@ -72,12 +72,101 @@
             </div>
         </div>
         <main>
-            <h1>Observaciones de un estudiante</h1>
-            <br>
-            <input class="controls" type="text" name="cod_est_cons" value="" placeholder="Cod. estudiante">
-            <br>
-            <input class="controls" type="text" name="nom_est_cons" value="" placeholder="Nombre estudiante">
+            <h1>ingresar estudiantes</h1>
+            <form action="/tasks/subir" method="POST">
+                <ul>
+                 <li>
+                   <label class="label" for="name">Nombre:</label>
+                   <input class="controls" type="text" id="name" name="user_name" />
+                 </li>
+                 <li>
+                   <label class="label" for="cod">Codigo  :</label>
+                   <input class="controls" type="cod" id="cod" name="user_codigo" />
+                 </li>
+                 <li>
+                   <label class="label" for="mt">Materia:</label>
+                   <input class="controls" id="grd" name="user_materia"/>
+                 </li>
+
+                 <li>
+                   <label class="label" for="nt">Nota :</label>
+                   <input class="controls" type="nota " id="nt" name="user_nota" />
+                 </li>
+                 <li class="button">
+                    <button type="submit">Enviar Información</button>
+                  </li>
+                </ul>
+            </form>
+                 <style>
+                     form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .8em;
+}
+
+                </style>
         </main>
         <script src="js/script.js"></script>
+        
     </body>
 </html>
